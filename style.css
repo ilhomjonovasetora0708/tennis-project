@@ -11,6 +11,11 @@
     margin: 0 auto;
     padding: 20px;
 }
+.container2{
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color:rgb(220, 216, 216);
+}
 .main-header{
     background-image: url(./images/Rectangle\ 26.png);
     background-repeat: no-repeat;
@@ -35,8 +40,9 @@
     font-family: sans-serif;
     font-size: 16px;
 }
+
 .header{
-    border-bottom: 2px solid rgb(176, 174, 174) ;
+    border-bottom: 2px solid rgb(204, 203, 203) ;
 }
 .left-main ul{
     display: flex;
@@ -72,6 +78,95 @@
     display: flex;
     align-items: center;
     gap: 50px;
-    padding-top: 100px;
+    padding-top: 120px;
 }
-.
+.sec2-container{
+    text-align: center;
+    padding-top: 120px;
+}
+.menus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 140%;
+}
+.menus li h4{
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+.title{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-bottom: 100px;
+    padding-top: 110px;
+}
+.last-menus{
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+   line-height: 140%;
+   
+
+}
+.last-menus a{
+    width: 400px;
+    height: 40px;
+    background-color: #8D86C9;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 18px;
+    
+}
+.sec4-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-top: 120px;
+}
+.sec4-tittle{
+    padding-bottom: 40px;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.tittle2{
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.img{
+    padding-top: 20px;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-menus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.footer{
+    background-color:#F7ECE1 ;
+    width: 1920px;
+    height: 96px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.link{
+    color: #a39f9f;
+    line-height: 140%;
+}
+.footer-menus li a{
+    color: black;
+    font-family: sans-serif;
+    line-height: 140%;
+}
